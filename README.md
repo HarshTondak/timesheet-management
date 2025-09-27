@@ -109,7 +109,6 @@ First, create the environment variables file `.env` in the client folder. The `.
 
 &nbsp;
 
-## For Support, Contact:
+## Demo Link:
 
-- Email: codewavewithasante@gmail.com
-- Telegram Chat: [https://t.me/Codewave_with_asante](https://t.me/Codewave_with_asante)
+- https://timesheet-management-vozv.onrender.com
