@@ -53,7 +53,7 @@ const Sidebar = () => {
       </h1>
 
       <div className="flex-1 flex flex-col gap-y-5 py-8 w-full">
-        {sidebarLinks.map((link) => (
+        {sidebarLinks?.map((link) => (
           <NavLink el={link} key={link.label} />
         ))}
       </div>

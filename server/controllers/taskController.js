@@ -156,7 +156,7 @@ const getTasksByDateRange = asyncHandler(async (req, res) => {
     });
 
     // Convert to array of { date, tasks }
-    const dateWiseTasks = Object.entries(dateMap).map(([date, tasks]) => ({
+    const dateWiseTasks = Object.entries(dateMap)?.map(([date, tasks]) => ({
       date,
       tasks,
     }));

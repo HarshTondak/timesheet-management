@@ -49,7 +49,7 @@ const AddTask = ({ open, setOpen, task }) => {
       const linksArray = data.links
         ? data.links
             .split(",")
-            .map((link) => link.trim())
+            ?.map((link) => link.trim())
             .filter(Boolean)
         : [];
 

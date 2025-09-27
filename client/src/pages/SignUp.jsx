@@ -87,18 +87,6 @@ const SignUp = () => {
             />
 
             <Textbox
-              placeholder="Your Role (e.g. Developer)"
-              type="text"
-              name="role"
-              label="Role"
-              className="w-full rounded-xl"
-              register={register("role", {
-                required: "Role is required!",
-              })}
-              error={errors.role ? errors.role.message : ""}
-            />
-
-            <Textbox
               placeholder="Title (e.g. Engineer)"
               type="text"
               name="title"
@@ -109,6 +97,7 @@ const SignUp = () => {
               })}
               error={errors.title ? errors.title.message : ""}
             />
+
             <span className="text-sm text-gray-600 hover:underline cursor-pointer">
               Already have an account?{" "}
               <a href="/login" className="text-blue-600">

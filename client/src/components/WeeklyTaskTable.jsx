@@ -64,7 +64,7 @@ const WeeklyTable = ({ weeks }) => {
           <table className="w-full">
             <TableHeader />
             <tbody>
-              {weeks.map((week, index) => (
+              {weeks?.map((week, index) => (
                 <TableRow key={week._id || index} week={week} />
               ))}
             </tbody>
