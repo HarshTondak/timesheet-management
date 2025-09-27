@@ -16,10 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://timesheet-management-vozv.onrender.com",
-    ],
+    origin: ["http://localhost:3000", "https://timesheet-mgt.vercel.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
